@@ -33,12 +33,12 @@ const CongratulationsPage = () => {
         </p>
 
         <div className="mt-8 flex flex-col gap-3">
-          <Button
+          {/* <Button
             className="w-full"
             onClick={() => navigate(`/hackathon/${slug}`)}
           >
             View Hackathon
-          </Button>
+          </Button> */}
 
           <Button
             variant="outline"
