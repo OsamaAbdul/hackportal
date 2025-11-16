@@ -109,6 +109,6 @@ Distributed under the MIT License. See LICENSE.md for more information.
 
 📧 Contact
 
-Project Link: https://hack-portal.vercel.app
+Project Link: https://hackportal.vercel.app
 Email: ibrahimabdulosama@gmail.com
 Twitter: @osamaabdul_jnr
