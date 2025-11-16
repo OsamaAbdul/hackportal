@@ -11,6 +11,7 @@ import HackathonDetail from "./pages/HackathonDetail";
 import SubmitProject from "./pages/SubmitProject";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import CongratulationsPage from "./pages/Congratulations";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/create-hackathon" element={<CreateHackathon />} />
+          <Route path="//congrats/${hackathon.slug}" element={<CongratulationsPage />} />
           <Route path="/hackathon/:slug" element={<HackathonDetail />} />
           <Route path="/submit/:slug" element={<SubmitProject />} />
           <Route path="/about" element={<About />} />
